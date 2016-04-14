@@ -1,6 +1,5 @@
 window.addEventListener("load", function(){
 var player = document.getElementById("player");
-alertz("player start");
 if(elementExists(player)){
     var controls = document.getElementById("player-controls");
     var fullscreen = false;
